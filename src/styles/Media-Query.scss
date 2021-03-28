@@ -1,0 +1,160 @@
+@media(max-width: 760px) {
+.Title {
+span { font-size: 3rem; }
+h3 { font-size: 2rem; }}
+.Main {
+h1 { font-size: 1rem; }
+.main-text { width: 80%;}    
+.btn { margin-top: 1rem; width: 65%; }}
+.img-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.my-info { margin-left: 0rem;}
+h1 { font-size: 1rem; }
+p { font-size: 0.6rem;}}
+.img-box,.img-boxx { 
+img { width: 12rem; }
+p { font-size: 1rem; }}
+.map {
+iframe {
+    width: 14rem;
+    height: 14rem;
+    margin-bottom: 2rem; }}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+.main-adres {
+    width: 23rem;
+.contact-items {
+    width: 23rem;
+    height: 5rem;
+img { width: 4.2rem; border: none;}}}}
+.fot-cont {
+p { font-size: 0.9rem; } }
+}
+
+@media(max-width: 320px) {
+.Main {
+.effect3,.effect4 { display: none;}
+.main-text { width: 100%;
+h1 { font-size: 1.4rem;}}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.btn {
+width: 12rem;
+margin-bottom: 2rem;
+}}
+img { width: 15rem; }}
+.Title { margin-left: 1rem;
+h3 { font-size: 2rem; }
+span { font-size: 2.4rem; }}
+.Title::before {
+    width: 4rem;
+    bottom: -0.7rem;
+}.Title::after {
+    width: 2rem;
+    bottom: -0.7rem;}
+.img-info { width: 15rem; }
+.about-info {
+span { font-size: 1.8rem;}
+p { font-size: 1rem; }}
+.detils-info {
+h1 { font-size: 0.9rem;}}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+.skill-page {
+    width: 12rem;
+    margin-left: -3.5rem;
+    margin-top: 0%;}
+.skill-cont {
+h5 { font-size: 0.8rem;}}
+.skill-bar { font-size: 0.8rem;}}
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+.img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;}
+.img-boxx {display: none;}}
+.contact {
+.main-adres { width: 17rem;
+.contact-items { width: 17rem;
+img { width: 3.5rem; margin-left: -0.4rem;}
+}}.items {
+h6 {font-size: 0.7rem;}
+p { font-size: 0.8rem;}}}
+.fot-cont {
+p { font-size: 0.7rem;}}
+
+}
+
+@media(max-width: 460px) {
+.Title {margin-left: 3rem;}
+.container {
+height: 30rem;
+.row {height: 100%; width: 100%;
+.main-text {margin-left: 1rem;
+h1 { font-size: 1.4rem;}
+.btn {width: 12rem;}}
+.mainImage {width: 15rem; margin-right: 0rem;
+img {width: 100%}}
+}}
+.main-info { margin-left: -2rem;
+.about-info{
+span { font-size: 2rem;}
+#text { font-size: 0.5rem;}
+}}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+.skill-page {
+  width: 15rem;
+  margin-left: -3.5rem;
+  margin-top: 1rem;}
+.skill-cont {
+h5 {font-size: 0.9rem;}}
+.skill-bar {font-size: 0.9rem;}}
+
+.img-container{
+  width: 100%;
+.img-box {
+img {
+    width: 10rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;}}
+.img-boxx { margin-left: 1.2rem;
+img {
+  width: 10rem;
+  margin: 2rem 0;}}}
+
+.contact {
+iframe {
+ width: 10rem;
+ height: 10rem;}
+.main-adres {width: 18rem;
+.contact-items { width: 18rem;
+img {width: 3.8rem; margin-left: -0.5rem;}}}
+.items {
+h6 {font-size: 0.8rem;}
+p {font-size: 0.8rem;}}}
+
+.fot-cont {p{width: 80%; font-size: 0.9rem;}
+ul {margin: 1rem 0;}}
+}
+
+
+
+
+
+

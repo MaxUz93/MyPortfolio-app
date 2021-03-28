@@ -1,0 +1,40 @@
+.fot-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 25, 25);
+    height: 10rem;
+    p {
+        font-size: 1.1rem;
+        text-align: center;
+        color: white;
+    }
+    ul {
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: row;
+    a {
+        color: white;
+        font-size: 1.3rem;
+        margin: 1.5rem 1.5rem;
+    .face {
+        color: #3b5998;
+    }
+    .insta {
+        color: #c32aa3;
+    }
+    .twit {
+        color: #00acee;
+    }
+    .you {
+        color: #c4302b;
+        }
+    }
+    }
+}
+
+
+
+
+

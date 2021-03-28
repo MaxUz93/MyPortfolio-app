@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.Main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+.btn {
+    padding: 10px 25px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: hotpink;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    transition: all 1s ease;
+    border: none;
+    box-shadow: -1px -1px 5px rgb(168, 168, 168),
+        -2px -2px 8px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 0.5),
+        inset -2px -2px 8px rgba(255, 255, 255, 0.5),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+    a {
+        
+        display: inline-block;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        margin-left: 80px;
+        margin-top: 50px;
+        width: 40px;
+        color: hotpink;
+        border: 2px solid hotpink;
+        border-radius: 50%;
+        font-family: 'Raleway',
+        sans-serif;
+        font-weight: 500;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    p {
+        color: #00B0FF;
+        font-size: 25px;
+        margin: 0;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #00B0FF;
+    }
+    }
+    .mainImage {
+        flex: 0 0 50%;
+        img {
+            display: block;
+            max-width: 80%;
+            border: 7px solid rgba(0, 0, 0, 0.123);
+            border-radius: 50%;       
+        }
+    }
+    .effect-wrap {
+        z-index: -1;
+    .effect1 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border: 4px solid #00B0FF;
+        right: 10%;
+        bottom: 10%;
+        animation: spin 10s linear infinite;
+    }
+    .effect2 {
+        position: absolute;
+        left: 3%;
+        bottom: 10%;
+        width: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        animation: topBounce 3s ease-in-out infinite;
+        div {
+            height: 3px;
+            width: 3px;
+            margin: 0 3px 8px;
+            background-color: #ff9c07;
+        }
+    }
+    .effect3 {
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        border: 25px solid hotpink;
+        border-radius: 50%;
+        left: 50%;
+        top: -120px;
+    }
+    .effect4 {
+        position: absolute;
+        border-top: 30px solid transparent;
+        border-left: 30px solid #06d79c;
+        left: 30%;
+        top: 20%;
+    }
+    @keyframes spin {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes topBounce {
+        0%,100%{
+            transform: translateY(0)
+        }
+        50%{
+            transform: translateY(15px)
+        }
+    }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

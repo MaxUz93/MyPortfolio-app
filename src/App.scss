@@ -1,0 +1,39 @@
+@import './styles/main.scss';
+@import './styles/about.scss';
+@import './styles/title.scss';
+@import './styles/info.scss';
+@import './styles/info-details.scss';
+@import './styles/skills.scss';
+@import './styles/services.scss';
+@import './styles/contact.scss';
+@import './styles/footer.scss';
+@import './styles/Media-Query.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$black: black;
+$Span: #00B0FF;
+
+span,h3 {
+    color: $Span;
+}
+h1,h5,h6,p {
+    color: $black
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffe3;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+

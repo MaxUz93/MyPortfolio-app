@@ -1,0 +1,36 @@
+.skill-page {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+.skill-cont {
+        h5 {
+            font-size: 1.2rem;
+
+        }
+    .skill-bar {
+        display: flex;
+        align-items: center;
+        p {
+            font-size: 1.2rem;
+        }
+    }
+    .skill-progress {
+        width: 100%;
+        .progress {
+        margin-left: 0.5rem;
+        width: 100%;
+        height: .5rem;
+        position: relative;
+        background-color: #0381ff3f;
+    .inner-progress {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: #00B0FF;
+        }
+        }
+    }
+}
+}
